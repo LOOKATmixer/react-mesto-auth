@@ -19,3 +19,10 @@
 @import url(../src/blocks/form/__error/_visible/form__error_visible.css);
 @import url(../src/blocks/element/__content-basket/element__content-basket.css);
 @import url(../src/blocks/element/__content-like/_active/element__content-like_active.css);
+@import url(../src/blocks/sign/sign.css); 
+@import url(../src/blocks/sign/__title/sign__title.css); 
+@import url(../src/blocks/sign/__form/sign__form.css); 
+@import url(../src/blocks/sign/__button/sign__button.css); 
+@import url(../src/blocks/sign/__input/sign__input.css); 
+@import url(../src/blocks/sign/__text/sign__text.css); 
+@import url(../src/blocks/sign/__link/sign__link.css);
