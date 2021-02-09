@@ -9,7 +9,7 @@ import AddPlacePopup from './AddPlacePopup';
 import ImagePopup from './ImagePopup';
 import PopupWithDelete from './PopupWithDelete';
 import { CurrentUserContext } from '../contexts/CurrentUserContext';
-import { api } from '../utils/Api';
+import { api } from '../utils/api';
 import ProtectedRoute from './ProtectedRoute';
 import Login from './Login';
 import Register from './Register';
@@ -210,7 +210,7 @@ function App() {
           if (res) {
             setLoggedIn(true);
             console.log(res);
-            setUserData(res.email);
+            setUserData(res.data.email);
             history.push('/');
           } else {
             setDataInfoTool({
